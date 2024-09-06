@@ -177,22 +177,19 @@ header .container {
 }
 
 .title {
-    width: 442px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    padding-bottom: 2rem;
 
     h1 {
+        width: 442px;
         font-size: 40px;
         font-weight: 900;
     }
 }
 
 .text {
+    
     text-align: center;
     p {
         padding: 2rem;
@@ -206,10 +203,10 @@ header .container {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
 }
 
-#phone-1{
+#phone-1 {
     display: none;
     width: 452px;
     height: 417px;
@@ -289,14 +286,31 @@ header .container {
 
     }
 
-    .title {
-        display: block;
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
+    .title {
+        grid-column: 1 / -1;
+
+    }
+
+    .text {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .discover {
+        grid-column: 1;
+        grid-row: 3;
+        
+    }
 
     #phone-1 {
-        display: flex;
-        
+        display: grid;
+        padding-right: 20px;
     }
 
 
@@ -306,9 +320,9 @@ header .container {
     #brand-5, #brand-6 {
         display: none;
     }
-    
+}    
  
-}
+
 
 @media (min-width: 1400px) {
     .container {
