@@ -204,18 +204,13 @@ header .container {
     align-items: center;
     flex-direction: column;
     gap: 5px;
+
 }
+
 
 #phone-1 {
     display: none;
-    width: 452px;
-    height: 417px;
 
-    img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
 }
 
 
@@ -289,7 +284,7 @@ header .container {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 
     .title {
@@ -298,18 +293,16 @@ header .container {
     }
 
     .text {
+        text-align: left;
         grid-column: 1;
         grid-row: 2;
     }
 
-    .discover {
-        grid-column: 1;
-        grid-row: 3;
-        
-    }
 
     #phone-1 {
         display: grid;
+        grid-column: 2;
+        grid-row: 2;
         padding-right: 20px;
     }
 
