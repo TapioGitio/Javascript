@@ -177,6 +177,12 @@ header .container {
 }
 
 .title {
+    width: 442px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     padding-bottom: 2rem;
 
@@ -184,16 +190,18 @@ header .container {
         font-size: 40px;
         font-weight: 900;
     }
+}
+
+.text {
+    text-align: center;
     p {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding: 2rem;
         color: var(--clr-gray700);
         font-size: 18px;
     }
 }
 
 .login-link {
-    min-width: 390px;
 
     display: flex;
     align-items: center;
@@ -281,8 +289,14 @@ header .container {
 
     }
 
+    .title {
+        display: block;
+    }
+
+
     #phone-1 {
-        display: grid;
+        display: flex;
+        
     }
 
 
