@@ -177,8 +177,9 @@ header .container {
 }
 
 .title {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 
     h1 {
@@ -211,11 +212,11 @@ header .container {
 .link {
     max-width: 100%;
     height: auto;
+    
 }
 
 #phone-1 {
     display: none;
-
 }
 
 
@@ -289,19 +290,22 @@ header .container {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: auto;
     }
 
     .title {
-        grid-column: 1 / -1;
-
+        grid-column: 1/-1;
+        grid-row: 1;
+        padding-bottom: 1rem;
     }
+
 
     .text {
         padding-top: 4rem;
         text-align: left;
         grid-column: 1;
         grid-row: 2;
+
     }
 
     .login-link {
@@ -313,6 +317,7 @@ header .container {
 
     .discover {
         padding-top: 5rem;
+        padding-right: 5rem;
 
     }
 
@@ -357,6 +362,37 @@ header .container {
         display: none;
     }
 
+
+    .title {
+        text-align: left;
+        margin-right: auto;
+        margin-left: 370px;
+        margin-top: 4rem;
+        padding-bottom: 0;
+    }
+
+    .text {
+        padding-top: 0;
+        max-width: 526px;
+        margin-left: 340px;
+    }
+
+    .discover {
+        margin-right: 250px;
+        margin-top: 370px;
+    }
+
+    #phone-1{
+        display: inline-block;
+        height: 680px;
+        margin-right: 312px;
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
 
     #brand-5, #brand-6 {
         display: flex;
