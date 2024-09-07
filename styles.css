@@ -205,8 +205,13 @@ header .container {
     flex-direction: column;
     gap: 5px;
 
+    
 }
 
+.link {
+    max-width: 100%;
+    height: auto;
+}
 
 #phone-1 {
     display: none;
@@ -293,11 +298,23 @@ header .container {
     }
 
     .text {
+        padding-top: 4rem;
         text-align: left;
         grid-column: 1;
         grid-row: 2;
     }
 
+    .login-link {
+        flex-direction: row;
+        padding-inline: 2rem; 
+        
+    }
+
+
+    .discover {
+        padding-top: 5rem;
+
+    }
 
     #phone-1 {
         display: grid;
@@ -339,6 +356,7 @@ header .container {
     .btn-mobile {
         display: none;
     }
+
 
     #brand-5, #brand-6 {
         display: flex;
