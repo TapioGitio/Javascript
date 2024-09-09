@@ -27,16 +27,17 @@
 
 body{
     font-family: "Manrope", system-ui;
-
 }
 
-main {
-        
+main {     
     background-image: var(--clr-gradient);
-
 }
 
-
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container {
     width: 100%;
@@ -101,10 +102,7 @@ a:hover {
 .toggle-switch .slider {
     position: absolute;
     cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     background-color: var(--clr-gray500);
     transition: var(--transition-time);
 }
@@ -177,9 +175,7 @@ header .container {
 }
 
 .title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
     text-align: center;
 
     h1 {
@@ -201,22 +197,25 @@ header .container {
 
 .login-link {
 
-    display: flex;
-    align-items: center;
     flex-direction: column;
-    gap: 5px;
-
+    gap: 1rem;
     
+    .link {
+        max-width: 100%;
+        height: auto;
+        
+    }
 }
 
-.link {
-    max-width: 100%;
-    height: auto;
-    
-}
 
 #phone-1 {
     display: none;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
 }
 
 
@@ -266,6 +265,52 @@ header .container {
     border-radius: 8px;
     height: 100px;
     width: 196px;
+}
+
+
+#phone-2 {
+    display: none;
+}
+
+.app-sec {
+
+}
+
+.app-features {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.app-title {
+    width: 100%;
+
+     h2 {
+        font-size: 2rem;
+        color: var(--clr-gray900);
+    }
+    p {
+        
+        font-size: 1,2rem;
+        color: var(--clr-gray600);
+        line-height: 28.8px;
+    }
+}
+
+
+
+
+.card {
+
+
+
+    h3 {
+        font-size: 1.2rem;
+        color: var(--clr-gray900);
+    }
+    p {
+        font-size: 1rem;
+        color: var(--clr-gray700);
+    }
 }
 
 
@@ -364,34 +409,25 @@ header .container {
 
 
     .title {
+        margin-top: 5rem;
+        margin-left: 2rem;
         text-align: left;
         margin-right: auto;
-        margin-left: 370px;
-        margin-top: 4rem;
-        padding-bottom: 0;
     }
 
     .text {
-        padding-top: 0;
-        max-width: 526px;
-        margin-left: 340px;
+        max-width:500px;
     }
 
     .discover {
-        margin-right: 250px;
-        margin-top: 370px;
+        margin-right: 5rem;
+        margin-top: 18rem;
     }
 
     #phone-1{
-        display: inline-block;
+        display: grid;
         height: 680px;
-        margin-right: 312px;
 
-        img {
-            height: 100%;
-            width: 100%;
-            object-fit: contain;
-        }
     }
 
     #brand-5, #brand-6 {
