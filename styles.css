@@ -199,9 +199,10 @@ header .container {
     flex-direction: column;
     gap: 1rem;
     
+
     .link {
         max-width: 100%;
-        height: auto;
+        object-fit: cover;
         
     }
 }
@@ -312,8 +313,9 @@ header .container {
     padding: 2rem;
     h3 {
         padding-bottom: 1rem;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: var(--clr-gray900);
+        
     }
     p {
         font-size: 1rem;
@@ -369,7 +371,7 @@ header .container {
 
 
     .discover {
-        padding-top: 5rem;
+        padding-top: 3rem;
         padding-right: 5rem;
 
     }
