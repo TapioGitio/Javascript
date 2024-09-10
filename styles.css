@@ -271,17 +271,10 @@ header .container {
     display: none;
 }
 
-.app-container {
-    width: 100%;
-    display: grid;
-    padding: var(--container-padding);
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 .app-title {
 
+    max-width: 746px;
     margin-top: 2rem;
     margin-bottom: 2rem;
        
@@ -299,14 +292,26 @@ header .container {
     }
 }
 
+.cards {
 
+    max-width: 746px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 
 .card {
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.card-text {
 
+    padding: 2rem;
     h3 {
+        padding-bottom: 1rem;
         font-size: 1.2rem;
         color: var(--clr-gray900);
     }
@@ -376,6 +381,11 @@ header .container {
         padding-right: 20px;
     }
 
+    article .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
 
     #brands {
         display: block;
@@ -435,6 +445,28 @@ header .container {
 
     #brand-5, #brand-6 {
         display: flex;
+    }
+
+    
+    article .container {
+        
+        max-width: 1300px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    #phone-2 {
+        display: grid;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+        grid-column: 1;
+    }
+
+    .card-container {
+        max-width: 746px;
+        display: grid;
+        grid-column: 2;
     }
 
 }
