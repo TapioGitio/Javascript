@@ -1,6 +1,5 @@
 :root {
     --clr-primary: #6366F1;
-    --clr-gradient: ; 
     --clr-gray100: #F3F6FF;
     --clr-gray200: #EFF2FC;
     --clr-gray300: #E2E5F1;
@@ -272,24 +271,28 @@ header .container {
     display: none;
 }
 
-.app-sec {
-
-}
-
-.app-features {
+.app-container {
     width: 100%;
-    margin-top: 2rem;
+    display: grid;
+    padding: var(--container-padding);
+    margin-left: auto;
+    margin-right: auto;
 }
+
 
 .app-title {
-    width: 100%;
 
-     h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+       
+    h2 {
+        margin-bottom: 1rem;
+        text-align: center;
         font-size: 2rem;
         color: var(--clr-gray900);
     }
     p {
-        
+        text-align: center;
         font-size: 1,2rem;
         color: var(--clr-gray600);
         line-height: 28.8px;
