@@ -23,6 +23,13 @@
     box-sizing: border-box;
 }
 
+.txt-center {
+    text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+} 
 
 body{
     font-family: "Manrope", system-ui;
@@ -383,8 +390,53 @@ header .container {
     }
 }
 
+.faq {
+    margin-top: 3rem;
 
+}
 
+.fq-title { 
+
+    max-width: 420px;
+
+    h2 {
+        color: var(--clr-gray900);
+        font-size: 1.5rem;
+
+    }
+
+    p {
+        color: var(--clr-gray700);
+    }
+}
+
+.accord {
+
+    border: 1px solid var(--clr-gray300);
+    border-radius: .5rem;
+
+    h2 {
+        font-size: 1rem;
+        padding: .5rem;
+    }
+
+    p {
+
+        color: var(--clr-gray700);
+    }
+}
+
+.acc-content {
+
+    border: 1px solid var(--clr-gray300);
+    display: flex;
+
+    .btn-dropdown {
+
+        border: ;
+        border-radius: 50%;
+    }
+}
 
 
 
