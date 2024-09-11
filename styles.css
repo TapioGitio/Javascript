@@ -343,6 +343,10 @@ header .container {
     }
 }
 
+.info {
+    background-color: var(--clr-gray100);
+}
+
 .info .container{
     background-color: var(--clr-gray100);
     margin-top: 2rem;
@@ -375,6 +379,7 @@ header .container {
 
         text-align: center;
         color: var(--clr-gray700);
+        line-height: 26px;
     }
 }
 
@@ -384,6 +389,7 @@ header .container {
 
 
 @media (min-width: 768px) {
+
     .container {
         max-width: 720px;
 
@@ -473,6 +479,7 @@ header .container {
 
 
 @media (min-width: 1400px) {
+
     .container {
         max-width: 1320px;
 
@@ -544,12 +551,18 @@ header .container {
         grid-column: 2;
     }
 
-    .info .container {
+    .phone-container {
 
-        
+        max-width: 1200px;
+        gap: 4rem;
     }
 
- 
+    .info-text {
+
+        max-width: 640px;
+    }
+
+
 }
 
 
