@@ -12,7 +12,7 @@
 
     --clr-white: #fff ;
 
-    --clr-gradient: radial-gradient( #6365f219 0%, #db46ef1b 42%, #f1f4fd27 83%);
+    --clr-gradient: radial-gradient( #6365f215 0%, #db46ef23 42%, #f1f4fd15 83%);
     --container-padding: 1rem;
     --transition-time: all 0.2s;
 }
@@ -31,11 +31,11 @@
     margin-bottom: 1rem;
 } 
 
-body{
+body {
     font-family: "Manrope", system-ui;
 }
 
-main {     
+.main {     
     background-image: var(--clr-gradient);
 }
 
@@ -353,11 +353,10 @@ header .container {
 }
 
 .info {
-    background-color: var(--clr-gray100);
+    background-color: var(--clr-gray300);
 }
 
 .info .container{
-    background-color: var(--clr-gray100);
     margin-top: 2rem;
 
     display: flex;
@@ -620,6 +619,7 @@ footer {
 
     }
 
+
     #brands {
         display: block;
     }
@@ -717,6 +717,17 @@ footer {
         max-width: 1300px;
         display: grid;
         grid-template-columns: auto;
+    }
+
+    article .app-title {
+
+        h2 {
+            font-size: 40px;
+            text-align: left;
+        }
+        p {
+            text-align: left;
+        }
     }
     
     #phone-2 {
@@ -891,9 +902,10 @@ footer {
         padding: 2rem;
         background-color: var(--clr-white);
         border-radius: .8rem;
+        box-shadow: 0 0 10px #33333313;
 
         .quotes {
-
+            box-shadow: 0 0 10px #33333313;;
             position: relative;
 
             img{
@@ -918,9 +930,19 @@ footer {
             margin-top: 2rem;
             display: flex;
             gap: .5rem;
-
         }
 
+        .rev-1 {
+            font-size: 1rem;
+            color: var(--clr-gray900);
+        }
+
+        .rev-2 {
+            font-size: 14px;
+            color: var(--clr-gray600);
+        }
+
+   
     }
 
 
