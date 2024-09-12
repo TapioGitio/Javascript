@@ -765,25 +765,27 @@ footer {
     .show {
         
         display: grid;
+        grid-template-columns: auto;
+
 
         .container {
-
 
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 5rem
+            gap: 5rem;
             
-        
         }
 
         .show-1 {
 
            width: 416px;
            height: 302px;
-           padding: 1rem;
            display: flex;
            flex-direction: column;
+           align-content: flex-start;
+
+
            
            h2 {
 
@@ -809,7 +811,7 @@ footer {
 
            .btn {
 
-            margin-top: 1rem;
+            margin-top: 2rem;
 
            }
         }
@@ -821,7 +823,41 @@ footer {
 
         }
 
-        
+
+        .show-3 {
+
+            
+
+        }
+
+        .show-4 {
+
+            max-width: 526px;
+
+
+            h2 {
+
+                font-size: 32px;
+                color: var(--clr-gray900);
+                padding-bottom: 2rem;
+            }
+
+            .bank {
+
+                display: flex;
+                gap: 2rem;
+                margin-bottom: 2rem;
+            }
+
+            .bank-1 {
+
+                p {
+                    margin-top: 1rem;
+                    text-align: left;
+                    color: var(--clr-gray700);
+                }
+            }
+        }
     }
 
 
