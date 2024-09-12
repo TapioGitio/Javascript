@@ -768,7 +768,12 @@ footer {
 
         .container {
 
- 
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5rem
+            
         
         }
 
@@ -806,13 +811,17 @@ footer {
 
             margin-top: 1rem;
 
-            img {
-                color: var(--clr-white);
-            }
            }
         }
 
+        .show-2 {
 
+            width: 526px;
+            height: 500px;
+
+        }
+
+        
     }
 
 
