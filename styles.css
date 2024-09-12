@@ -397,6 +397,10 @@ header .container {
 
 }
 
+.review {
+    display: none;
+}
+
 .faq {
     margin-top: 3rem;
 
@@ -823,13 +827,6 @@ footer {
 
         }
 
-
-        .show-3 {
-
-            
-
-        }
-
         .show-4 {
 
             max-width: 526px;
@@ -860,7 +857,71 @@ footer {
         }
     }
 
+    .review {
+        display: block;
+        height: 542px;
+        width: 100%;
+        background-color: var(--clr-gray300);
+    }
 
+    .review {
+        
+
+        .container {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            display: flex;
+
+            justify-content: center;
+            gap: 3rem;
+    
+        }  
+    }
+    .rev-title {
+        padding-top: 4rem;
+        font-size: 2rem;
+        color: var(--clr-gray900);
+    }
+
+    .rev-container {
+
+        margin-top: 5rem;
+        max-width: 416px;
+        height: 329px;
+        padding: 2rem;
+        background-color: var(--clr-white);
+        border-radius: .8rem;
+
+        .quotes {
+
+            position: relative;
+
+            img{
+
+                position: absolute;
+                top: -60px;
+            }
+        }
+
+        .img-container {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .rev-text {
+            font-size: 18px;
+            color: var(--clr-gray700);
+
+        }
+
+        .rev-fan {
+            margin-top: 2rem;
+            display: flex;
+            gap: .5rem;
+
+        }
+
+    }
 
 
 
