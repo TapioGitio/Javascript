@@ -420,6 +420,10 @@ header .container {
     }
 }
 
+.call-us {
+    display: none;
+}
+
 .accord {
 
     border: 1px solid var(--clr-gray300);
@@ -464,7 +468,7 @@ header .container {
 
         background-color: var(--clr-gray500);
     }
-    
+
     img {
         width: 20px;
         height: 20px;
@@ -1029,6 +1033,34 @@ footer {
         }
 
    
+    }
+
+    .call-us {
+        display: flex;
+        gap: 30px;
+    }
+
+    .box {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 200px;
+        height: 166px;
+        padding: 1rem;
+
+        border: 1px solid var(--clr-gray400);
+
+        p {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            color: var(--clr-gray700);
+            font-size: 1rem;
+        }
+
+        .btn-call {
+            
+        }
     }
 
     .newsletter {
