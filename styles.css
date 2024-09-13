@@ -1036,6 +1036,35 @@ footer {
    
     }
 
+
+    .faq {
+
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .faq .container {
+
+        display: grid;
+        grid-template-columns: auto auto;
+
+        .fq-title {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+        }
+
+        .leftside {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .accord {
+
+            max-width: 746px;
+        }
+    }
+
     .call-us {
         display: flex;
         align-items: center;
@@ -1076,8 +1105,8 @@ footer {
             }
         }
         .btn-call-1:hover {
-            background-color: var(--clr-gray700);
-            color: var(--clr-white);
+
+            color: var(--clr-gray500);
             text-decoration: none;
         }
 
@@ -1092,8 +1121,8 @@ footer {
             border: none;
         }
         .btn-call-2:hover {
-            background-color: var(--clr-gray700);
-            color: var(--clr-white);
+
+            color: var(--clr-gray500);
             text-decoration: none;
         }
     }
