@@ -1037,6 +1037,8 @@ footer {
 
     .call-us {
         display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 30px;
     }
 
@@ -1059,7 +1061,19 @@ footer {
         }
 
         .btn-call {
-            
+
+            color: green;
+            border: none;
+            padding: 12px 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+        .btn-call:hover {
+            background-color: var(--clr-gray700);
+            color: var(--clr-white);
+            text-decoration: none;
         }
     }
 
