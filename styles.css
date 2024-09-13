@@ -9,6 +9,7 @@
     --clr-gray700: #565973;
     --clr-gray800: #33354D;
     --clr-gray900: #0B0F19;
+    --clr-succes: #22C55E;
 
     --clr-white: #fff ;
 
@@ -1060,9 +1061,29 @@ footer {
             font-size: 1rem;
         }
 
-        .btn-call {
+        .btn-call-1 {
 
-            color: green;
+            color: var(--clr-primary);
+            border: none;
+            padding: 12px 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+
+            img {
+                color: var(--clr-primary);
+            }
+        }
+        .btn-call-1:hover {
+            background-color: var(--clr-gray700);
+            color: var(--clr-white);
+            text-decoration: none;
+        }
+
+        .btn-call-2 {
+
+            color: var(--clr-succes);
             border: none;
             padding: 12px 25px;
             display: flex;
@@ -1070,7 +1091,7 @@ footer {
             align-items: center;
             border: none;
         }
-        .btn-call:hover {
+        .btn-call-2:hover {
             background-color: var(--clr-gray700);
             color: var(--clr-white);
             text-decoration: none;
