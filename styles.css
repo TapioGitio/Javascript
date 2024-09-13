@@ -458,10 +458,18 @@ header .container {
     background-color: var(--clr-gray100);
     margin-right: 1rem;
 
+    cursor: pointer;
+
+    &:hover {
+
+        background-color: var(--clr-gray500);
+    }
+    
     img {
         width: 20px;
         height: 20px;
         object-fit: cover;
+        
 
     }
 }
@@ -475,11 +483,18 @@ header .container {
     box-shadow: 0 0 10px #3333332c;
     background-color: var(--clr-primary);
     margin-right: 1rem;
+    cursor: pointer;
+
+    &:hover {
+
+        background-color: var(--clr-gray500);
+    }
 
     img {
         width: 10px;
         height: 10px;
         object-fit: cover;
+        
     }
 }
 
@@ -503,16 +518,25 @@ header .container {
     background-color: var(--clr-primary);
     box-shadow: 0 0 10px #3333332c;
     cursor: pointer;
-    
+
     p {
         font-size: 1em;
         color: var(--clr-white);
+    }
+
+    &:hover {
+        
+        background-color: var(--clr-gray700);
+        color: var(--clr-white);
+        text-decoration: none;
+    
     }
 }
 
 
 .newsletter {
 
+    margin-top: 2rem;
 
     .news-container {
     
@@ -523,7 +547,7 @@ header .container {
             
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         flex-wrap: wrap;
         gap: 20px;
     }
@@ -531,18 +555,17 @@ header .container {
 
 .news-title {
 
-    margin: 1rem;
     h2 {
-        font-size: 22px;
+        font-size: 1.3rem;
         color: var(--clr-gray900);
     }
 }
 
 
-
 .email-form {
 
-    margin-top: 2rem;
+    min-width: 349px;
+    margin-top: 1rem;
 
     .form-input {
 
@@ -552,7 +575,12 @@ header .container {
         background-image: url(/images/email-icon.svg);
         background-repeat: no-repeat;
         background-position: 10px center;
-        padding: 1em 2.5em
+        padding: 1em 2.5em;
+
+        &:focus {
+            outline:none;
+            box-shadow: 0 0 5px var(--clr-primary);
+        }
         
     }
 
@@ -695,6 +723,17 @@ footer {
         display: none;
     }
 
+    .newsletter {
+
+        .news-container {
+
+
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-wrap: nowrap;
+        }
+    }
 
     footer {
 
@@ -992,6 +1031,18 @@ footer {
    
     }
 
+    .newsletter {
+
+        margin-top: 6rem;
+
+        .news-container {
+
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
 
 
     #contact-container {
