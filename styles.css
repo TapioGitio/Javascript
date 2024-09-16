@@ -419,9 +419,11 @@ header .container {
 
         color: var(--clr-gray900);
         font-size: 2.2rem;
+        font-weight: 800;
     }
 
     p {
+        font-size: 1.1rem;
         color: var(--clr-gray700);
     }
 }
@@ -440,6 +442,7 @@ header .container {
     h2 {
         font-size: 1rem;
         padding: 1rem;
+        font-weight: 600;
     }
 
     p {
@@ -548,9 +551,15 @@ header .container {
 
     margin-top: 2rem;
 
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
     .news-container {
     
-        width: 100%;
+        max-width: 1320px;
         padding: 2rem;
         background-color: var(--clr-gray100);
         border-radius: .8rem;
@@ -568,6 +577,7 @@ header .container {
     h2 {
         font-size: 1.3rem;
         color: var(--clr-gray900);
+        font-weight: 800;
     }
 }
 
@@ -745,6 +755,81 @@ footer {
             flex-wrap: nowrap;
         }
     }
+/* 
+    .faq .container {
+
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .fq-title {
+
+        grid-column: 1 -1;
+    }
+
+    .call-us {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .box {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column;
+        max-width: 200px;
+        height: 166px;
+        padding: 1rem;
+
+        border: 1px solid var(--clr-gray400);
+        border-radius: .8rem;
+
+        p {
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            color: var(--clr-gray700);
+            font-size: 1rem;
+        }
+
+        .btn-call-1 {
+
+            color: var(--clr-primary);
+            border: none;
+            padding: 12px 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+
+            img {
+                color: var(--clr-primary);
+            }
+        }
+        .btn-call-1:hover {
+
+            color: var(--clr-gray500);
+            text-decoration: none;
+        }
+
+        .btn-call-2 {
+
+            color: var(--clr-succes);
+            border: none;
+            padding: 12px 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+        }
+        .btn-call-2:hover {
+
+            color: var(--clr-gray500);
+            text-decoration: none;
+        }
+    } */
 
     footer {
 
@@ -1163,7 +1248,10 @@ footer {
             display: flex;
             align-items: center;
             justify-content: center;
+            padding: 4rem;
+
         }
+
     }
 
 
