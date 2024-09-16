@@ -582,6 +582,10 @@ header .container {
     }
 }
 
+.call-us-2 {
+    display: none;
+}
+
 
 .email-form {
 
@@ -756,24 +760,22 @@ footer {
             flex-wrap: nowrap;
         }
     }
-/* 
+
     .faq .container {
 
         display: grid;
         grid-template-columns: auto;
     }
 
-    .fq-title {
 
-        grid-column: 1 -1;
-    }
-
-    .call-us {
+    .call-us-2{
+        width: 100%;
         margin-top: 2rem;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
+        gap: 1rem;
+
     }
 
     .box {
@@ -781,9 +783,9 @@ footer {
         align-items: start;
         justify-content: center;
         flex-direction: column;
-        max-width: 200px;
+        width: 340px;
         height: 166px;
-        padding: 1rem;
+        padding: 2rem;
 
         border: 1px solid var(--clr-gray400);
         border-radius: .8rem;
@@ -799,7 +801,6 @@ footer {
 
             color: var(--clr-primary);
             border: none;
-            padding: 12px 25px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -819,7 +820,6 @@ footer {
 
             color: var(--clr-succes);
             border: none;
-            padding: 12px 25px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -830,7 +830,7 @@ footer {
             color: var(--clr-gray500);
             text-decoration: none;
         }
-    } */
+    }
 
     footer {
 
@@ -1067,7 +1067,6 @@ footer {
             margin-top: 2rem;
             margin-bottom: 2rem;
             display: flex;
-
             justify-content: center;
             gap: 3rem;
     
@@ -1164,15 +1163,16 @@ footer {
 
         }
 
-        .leftside {
-            display: flex;
-            flex-direction: column;
-        }
 
+  
         .accord {
 
             max-width: 746px;
         }
+    }
+
+    .call-us-2 {
+        display: none;
     }
 
     .call-us {
