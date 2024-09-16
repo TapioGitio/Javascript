@@ -437,7 +437,7 @@ header .container {
 
     border: 1px solid var(--clr-gray300);
     border-radius: .5rem;
-    box-shadow: 0 0 10px #33333302;
+    box-shadow: 0 0 10px #0000001e;
     
 
     h2 {
@@ -765,6 +765,11 @@ footer {
 
         display: grid;
         grid-template-columns: auto;
+    }
+
+    .accord {
+        margin-bottom: .5rem;
+        box-shadow: 0 0 10px #00000038;
     }
 
 
