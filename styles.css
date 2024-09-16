@@ -354,7 +354,7 @@ header .container {
 }
 
 .info {
-    background-color: var(--clr-gray300);
+    background-color: var(--clr-gray100);
 }
 
 .info .container{
@@ -547,7 +547,7 @@ header .container {
     
         width: 100%;
         padding: 2rem;
-        background-color: var(--clr-gray300);
+        background-color: var(--clr-gray100);
         border-radius: .8rem;
             
         display: flex;
@@ -963,7 +963,7 @@ footer {
         display: block;
         height: 542px;
         width: 100%;
-        background-color: var(--clr-gray300);
+        background-color: var(--clr-gray100);
     }
 
     .review {
