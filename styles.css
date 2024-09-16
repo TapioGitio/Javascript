@@ -187,8 +187,8 @@ header .container {
 
     h1 {
         width: 442px;
-        font-size: 40px;
-        font-weight: 900;
+        font-size: 2.5rem;
+        font-weight: 800;
     }
 }
 
@@ -293,6 +293,7 @@ header .container {
         margin-bottom: 1rem;
         text-align: center;
         font-size: 2rem;
+        font-weight: 800;
         color: var(--clr-gray900);
     }
     p {
@@ -324,11 +325,13 @@ header .container {
     h3 {
         padding-bottom: 1rem;
         font-size: 1.3rem;
+        font-weight: 800;
         color: var(--clr-gray900);
         
     }
     p {
         font-size: 1rem;
+        font-weight: 400;
         color: var(--clr-gray700);
     }
 }
@@ -370,6 +373,7 @@ header .container {
 
         color: var(--clr-gray900);
         font-size: 2rem;
+        font-weight: 800;
     }
 }
 
@@ -381,11 +385,12 @@ header .container {
     h3 {
         font-size: 1.4rem;
         color: var(--clr-gray900);
+        font-weight: 800;
         padding-bottom: 1rem;
     }
 
     p {
-
+        font-size: 1rem;
         text-align: center;
         color: var(--clr-gray700);
         line-height: 26px;
@@ -897,8 +902,9 @@ footer {
            h2 {
 
             text-align: left;
-            font-size: 32px;
+            font-size: 2rem;
             color: var(--clr-gray900);
+            font-weight: 800;
            }
 
            p {
@@ -939,6 +945,7 @@ footer {
 
                 font-size: 32px;
                 color: var(--clr-gray900);
+                font-weight: 800;
                 padding-bottom: 2rem;
             }
 
@@ -984,6 +991,7 @@ footer {
         padding-top: 4rem;
         font-size: 2rem;
         color: var(--clr-gray900);
+        font-weight: 800;
     }
 
     .rev-container {
@@ -1027,6 +1035,7 @@ footer {
         .rev-1 {
             font-size: 1rem;
             color: var(--clr-gray900);
+            font-weight: 700;
         }
 
         .rev-2 {
@@ -1058,6 +1067,7 @@ footer {
 
             h2 {
                 font-size: 2.3rem;
+                font-weight: 800;
                 text-align: left;
             }
 
