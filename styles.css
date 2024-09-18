@@ -15,7 +15,7 @@
     --clr-bg-white: #fff;
     --clr-bg-btn-white: #fff;
 
-    /* --clr-gradient: radial-gradient( #6365f215 0%, #db46ef23 42%, #f1f4fd15 83%); */
+    --clr-gradient: radial-gradient( #6365f215 0%, #db46ef23 42%, #f1f4fd15 83%);
     --container-padding: 1rem;
     --transition-time: all 0.2s;
 }
@@ -65,8 +65,7 @@ body {
 }
 
 .main {     
-    background: rgb(99,102,241);
-    background: linear-gradient(0deg, rgba(99,102,241,0.10127801120448177) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
+    background: var(--clr-gradient);
 }
 
 .flex {
@@ -206,6 +205,8 @@ header .container {
     padding-bottom: 1rem;
 }
 
+
+
 .grid-container {
     display: grid;
     grid-template-columns: auto;
@@ -219,6 +220,7 @@ header .container {
         width: 442px;
         font-size: 2.5rem;
         font-weight: 800;
+        color: var(--clr-gray900);
     }
 }
 
@@ -269,7 +271,7 @@ header .container {
         border-radius: 50%;
         background-color: var(--clr-white);
         border: none;
-        box-shadow: 0 0 10px #0b0f1958 ;
+        box-shadow: 0 0 10px #0b0f192d ;
         margin-right: 20px;
 
         cursor: pointer;
@@ -278,7 +280,6 @@ header .container {
     span {
         color: var(--clr-gray700);
         font-size: 14px;
-
     }
 }
 
