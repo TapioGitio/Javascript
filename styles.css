@@ -18,6 +18,30 @@
     --transition-time: all 0.2s;
 }
 
+html {
+
+    color-scheme: light;
+}
+
+.dark {
+
+    color-scheme: dark;
+
+    --clr-primary: #6366F1;
+    --clr-gray100: #2e2f35;
+    --clr-gray200: #131022;
+    --clr-gray300: #222121;
+    --clr-gray400: #fff;
+    --clr-gray500: #ffffff;
+    --clr-gray600: #fff;
+    --clr-gray700: #a7a7a7;
+    --clr-gray800: #fff;
+    --clr-gray900: #fff;
+    --clr-succes: #22C55E;
+
+    --clr-white: #858585 ;
+}
+
 *{
     margin: 0;
     padding: 0;
