@@ -264,6 +264,8 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1rem;
+
 
     .btn-discover {
         width: 44px;
@@ -708,9 +710,10 @@ footer {
     }
 
     .title {
+        margin-top: 2rem;
         grid-column: 1/-1;
         grid-row: 1;
-        padding-bottom: 1rem;
+        margin-bottom: 1rem;
     }
 
 
@@ -730,9 +733,13 @@ footer {
 
 
     .discover {
-        padding-top: 3rem;
-        padding-right: 5rem;
+        margin-top: 2rem;
+        margin-right: 8rem;
 
+        .btn-discover {
+            width: 33px;
+            height: 33px;
+        }
     }
 
     #phone-1 {
@@ -903,6 +910,10 @@ footer {
     .btn-mobile {
         display: none;
     }
+    .main {
+        height:800px;
+        overflow: hidden;
+    }
 
     .title {
         margin-top: 5rem;
@@ -916,8 +927,8 @@ footer {
     }
 
     .discover {
-        margin-right: 5rem;
-        margin-top: 18rem;
+        margin-right: 18rem;
+        margin-top: 16rem;
     }
 
     #phone-1{
