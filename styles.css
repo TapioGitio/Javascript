@@ -126,6 +126,7 @@ a:hover {
     display: inline-block;
     width: 45px;
     height: 25px;
+
 }
 
 .toggle-switch input {
@@ -140,6 +141,7 @@ a:hover {
     inset: 0;
     background-color: var(--clr-gray500);
     transition: var(--transition-time);
+
 }
 
 .toggle-switch .slider::before {
@@ -244,7 +246,7 @@ header .container {
     .link {
         max-width: 100%;
         object-fit: cover;
-        
+      
     }
 }
 
@@ -274,10 +276,14 @@ header .container {
         border-radius: 50%;
         background-color: var(--clr-white);
         border: none;
-        box-shadow: 0 0 10px #0b0f192d ;
+        box-shadow: 0 5px 10px #00000025 ;
         margin-right: 20px;
 
         cursor: pointer;
+
+        &:hover {
+            background-color: var(--clr-gray500);
+        }
     }
 
     span {
