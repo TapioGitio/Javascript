@@ -33,3 +33,4 @@ function disableDarkMode() {
     document.documentElement.classList.remove('dark')
 
 }
+// Hämtat från Joakims klipp.
