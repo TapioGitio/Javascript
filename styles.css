@@ -241,7 +241,6 @@ header .container {
 
     flex-direction: column;
     gap: 1rem;
-    
 
     .link {
         max-width: 100%;
