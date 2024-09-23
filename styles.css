@@ -111,7 +111,6 @@ a:hover {
     margin-right: .5rem;
 }
 
-
 .btn-toggle-switch {
     display: flex;
     align-items: center;
@@ -629,6 +628,7 @@ header .container {
 
     min-width: 349px;
     margin-top: 1rem;
+    display: flex;
 
     .form-input {
 
