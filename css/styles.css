@@ -342,7 +342,7 @@ header .container {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
         border: none;
-        background-image: url(./images/email-icon.svg);
+        background-image: url(../images/email-icon.svg);
         background-repeat: no-repeat;
         background-position: 10px center;
         padding: 1em 2.5em;
