@@ -1,0 +1,15 @@
+a {
+    color:var(--clr-gray800);
+    text-decoration: none;
+    
+}
+a:hover {
+    color:var(--clr-primary);
+    text-decoration: underline;
+}
+
+.nav-link {
+    color:var(--clr-gray800);
+    font-weight: 600;
+    text-decoration: none;
+}

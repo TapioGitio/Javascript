@@ -1,0 +1,22 @@
+.txt-center {
+    text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+} 
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-left: auto;
+    margin-right: auto;
+}
