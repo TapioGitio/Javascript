@@ -70,12 +70,7 @@ header .container {
 
 .discover {
     margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 1rem;
-
-    
 
     span {
         color: var(--clr-gray700);

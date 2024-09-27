@@ -97,11 +97,13 @@
     border: none;
     box-shadow: 0 5px 10px #00000025 ;
     margin-right: 20px;
-
+    font-size: .8rem;
+    
     cursor: pointer;
 
     &:hover {
         background-color: var(--clr-gray500);
+        text-decoration: none;
     }
 }
 
