@@ -227,14 +227,14 @@ header .container {
     display: none;
 }
 
-.faq {
+.faq { 
     margin-top: 3rem;
-
 }
 
 .fq-title { 
 
     max-width: 416px;
+    margin-bottom: 2rem;
 
     h2 {
         font-size: 2.2rem;
@@ -250,65 +250,46 @@ header .container {
     display: none;
 }
 /* accord startar */
-.accordion {
-    background-color: #fff;
-    color: var(--clr-gray900);
-    cursor: pointer;
-    padding: 1.2rem;
-    width: 100%;
-    text-align: left;
-    border: none;
+.acc-border {
+    border: 1px solid var(--clr-gray100);
     border-radius: .8rem;
-    box-shadow: 0 0 10px #00000028;
-    outline: none;
-    transition: .2s;
-
-    &:hover {
-        background-color: var(--clr-gray100);
-    }
-}
-
-.active {
-    background-color: var(--clr-bg-white);
-}
-
-.panel {
-    padding: 0 1rem;
-    background-color: var(--clr-bg-white);
-    display: none;
+    box-shadow: 0 0 10px #0000001c;
     overflow: hidden;
-    transition: max-height .2s ease-out;
-}
-/* accord slutar */
-.accord {
-
-    border: 1px solid var(--clr-gray300);
-    border-radius: .5rem;
-    box-shadow: 0 0 10px #0000001e;
-    
-
-    h2 {
-        font-size: 1rem;
-        padding: 1rem;
-        font-weight: 600;
-    }
-
-    p {
-        padding: 1rem;
-        color: var(--clr-gray700);
-    }
+    text-wrap: balance;
 }
 
-.acc-content {
-
-    width: 100%;
-    border: 1px solid var(--clr-gray300);
+.accordion {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 0 10px #33333305;
+    background-color: var(--clr-bg-white);
+    color: var(--clr-gray900);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 1rem;
+
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: .2s;
 
 }
+
+.panel {
+    padding: 1rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--clr-gray700);
+    background-color: var(--clr-bg-white);
+    border: none;
+    display: none;
+    overflow: hidden;
+
+    
+}
+/* accord slutar */
 
 #contact-container {
     width: 100%;
@@ -547,9 +528,9 @@ footer {
         grid-template-columns: auto;
     }
 
-    .accord {
-        margin-bottom: .5rem;
-        box-shadow: 0 0 10px #00000022;
+    .acc-border {
+        margin-bottom: 1rem;
+
     }
 
 
@@ -926,21 +907,22 @@ footer {
 
     .faq {
 
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 
     .faq .container {
 
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 2fr 3fr;
         column-gap: 4rem;
 
         .fq-title {
             display: flex;
             flex-direction: column;
             padding: 1rem;
-            max-width: 415px;
+            margin-left: 1rem;
+
 
             h2 {
                 font-size: 2.3rem;
@@ -954,13 +936,6 @@ footer {
             }
 
         }
-
-
-  
-        .accord {
-
-            max-width: 746px;
-        }
     }
 
     .call-us-2 {
@@ -972,7 +947,7 @@ footer {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 30px;
+        gap: 2rem;
     }
 
     .box {

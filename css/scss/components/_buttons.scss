@@ -105,54 +105,33 @@
     }
 }
 
-.btn-dropdown {
-    min-width: 36px;
-    min-height: 36px;
-    border-radius: 50%;
-    border: none;
-    box-shadow: 0 0 10px #3333332c;
-    background-color: var(--clr-gray100);
-    margin-right: 1rem;
-
-    cursor: pointer;
-
-    &:hover {
-
-        background-color: var(--clr-gray500);
-    }
-
-    img {
-        width: 20px;
-        height: 20px;
-        object-fit: cover;
-
-    }
-}
 
 .btn-drop-up {
-
     width: 36px;
     height: 36px;
     border-radius: 50%;
     border: none;
     box-shadow: 0 0 10px #3333332c;
-    background-color: var(--clr-primary);
+    background-color: var(--clr-gray100);
     margin-right: 1rem;
     cursor: pointer;
-
-    &:hover {
-
-        background-color: var(--clr-gray500);
-    }
-
-    img {
-        width: 10px;
-        height: 10px;
-        object-fit: cover;
-        
-    }
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
+.btn-drop-up:hover {
+    background-color: var(--clr-gray500);
+}
+
+.btn-drop-up.active {
+    transform: rotate(180deg);
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+}
+
 
 .btn-contact {
     width: 162px;

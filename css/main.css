@@ -85,6 +85,12 @@ h1 {
   margin-right: auto;
 }
 
+.acc-border {
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1098039216);
+}
+
 .btn-primary {
   background-color: var(--clr-primary);
   color: var(--clr-white);
@@ -189,44 +195,30 @@ h1 {
   background-color: var(--clr-gray500);
 }
 
-.btn-dropdown {
-  min-width: 36px;
-  min-height: 36px;
-  border-radius: 50%;
-  border: none;
-  box-shadow: 0 0 10px rgba(51, 51, 51, 0.1725490196);
-  background-color: var(--clr-gray100);
-  margin-right: 1rem;
-  cursor: pointer;
-}
-.btn-dropdown:hover {
-  background-color: var(--clr-gray500);
-}
-.btn-dropdown img {
-  width: 20px;
-  height: 20px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .btn-drop-up {
   width: 36px;
   height: 36px;
   border-radius: 50%;
   border: none;
   box-shadow: 0 0 10px rgba(51, 51, 51, 0.1725490196);
-  background-color: var(--clr-primary);
+  background-color: var(--clr-gray100);
   margin-right: 1rem;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
+
 .btn-drop-up:hover {
   background-color: var(--clr-gray500);
 }
-.btn-drop-up img {
-  width: 10px;
-  height: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
+
+.btn-drop-up.active {
+  transform: rotate(180deg);
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
 }
 
 .btn-contact {
