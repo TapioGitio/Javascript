@@ -93,7 +93,7 @@
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: var(--clr-white);
+    background-color: var(--clr-gray100);
     border: none;
     box-shadow: 0 5px 10px #00000025 ;
     margin-right: 20px;
@@ -115,6 +115,7 @@
     background-color: var(--clr-gray100);
     margin-right: 1rem;
     cursor: pointer;
+    
     display: flex;
     align-items: center;
     justify-content: center;
