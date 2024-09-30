@@ -45,7 +45,7 @@ header .container {
 }
 
 .login-link {
-
+    display: flex;
     flex-direction: column;
     gap: 1rem;
 
@@ -122,9 +122,8 @@ header .container {
     }
     p {
         text-align: center;
-        font-size: 1,2rem;
+        font-size: 1.2rem;
         color: var(--clr-gray600);
-        line-height: 28.8px;
     }
 }
 
@@ -261,7 +260,6 @@ header .container {
     color: var(--clr-gray900);
     font-size: 1rem;
     font-weight: 600;
-    cursor: pointer;
     padding: 1rem;
 
     width: 100%;
