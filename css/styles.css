@@ -383,6 +383,8 @@ header .container {
         padding: 12px 25px;
         cursor: pointer;
 
+        transition: background-color .2s;
+
     }
     .btn-sub:hover {
         background-color: var(--clr-gray700);
