@@ -52,8 +52,9 @@ header .container {
     .link {
         max-width: 100%;
         object-fit: cover;
-      
+        
     }
+
 }
 
 
@@ -65,7 +66,10 @@ header .container {
         width: 100%;
         object-fit: contain;
     }
+
 }
+
+
 
 
 .discover {
@@ -317,6 +321,12 @@ header .container {
         justify-content: start;
         flex-wrap: wrap;
         gap: 20px;
+    }
+
+    .bell:hover {
+
+        animation: shakeIt .5s;
+        animation-iteration-count: 2;
     }
 }
 
