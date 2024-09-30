@@ -22,7 +22,7 @@ header .container {
 .grid-container {
     position: relative;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
 }
 
 .title {

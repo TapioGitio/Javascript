@@ -113,6 +113,7 @@ h1 {
 
 .btn-toggle-switch .label {
   display: none;
+  font-weight: 600;
 }
 
 .toggle-switch {
