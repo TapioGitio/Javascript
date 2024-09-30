@@ -243,7 +243,7 @@ header .container {
 .call-us {
     display: none;
 }
-/* accord startar */
+
 .acc-border {
     border: 1px solid var(--clr-gray100);
     border-radius: .8rem;
@@ -281,7 +281,6 @@ header .container {
     overflow: hidden;
 
 }
-/* accord slutar */
 
 #contact-container {
     width: 100%;
