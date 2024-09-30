@@ -52,6 +52,8 @@ header .container {
     .link {
         max-width: 100%;
         object-fit: cover;
+        border: 1px solid var(--clr-white);
+        border-radius: .3rem;
         
     }
 
