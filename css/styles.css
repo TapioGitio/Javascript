@@ -20,7 +20,6 @@ header .container {
 
 
 .grid-container {
-    position: relative;
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -247,6 +246,7 @@ header .container {
 
 .call-us {
     display: none;
+
 }
 
 .acc-border {
@@ -381,6 +381,8 @@ header .container {
         border-bottom-right-radius: 8px;
         border: none;
         padding: 12px 25px;
+        cursor: pointer;
+
     }
     .btn-sub:hover {
         background-color: var(--clr-gray700);
@@ -565,42 +567,6 @@ footer {
             font-size: 1rem;
         }
 
-        .btn-call-1 {
-
-            color: var(--clr-primary);
-            background-color: var(--clr-bg-btn-white);
-            border: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: none;
-
-            img {
-                color: var(--clr-primary);
-            
-            }
-        }
-        .btn-call-1:hover {
-
-            color: var(--clr-gray500);
-            text-decoration: none;
-        }
-
-        .btn-call-2 {
-
-            color: var(--clr-succes);
-            background-color: var(--clr-bg-btn-white);
-            border: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: none;
-        }
-        .btn-call-2:hover {
-
-            color: var(--clr-gray500);
-            text-decoration: none;
-        }
     }
 
     footer {
@@ -711,22 +677,6 @@ footer {
     .info-text {
 
         max-width: 640px;
-    }
-
-    .btn-learn {
-        background-color: var(--clr-primary);
-        color: var(--clr-white);
-        border-radius: 8px;
-        padding: 12px 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: none;
-    }
-    .btn-learn:hover {
-        background-color: var(--clr-gray700);
-        color: var(--clr-white);
-        text-decoration: none;
     }
 
     section.show {
@@ -971,43 +921,6 @@ footer {
             font-size: 1rem;
         }
 
-        .btn-call-1 {
-
-            color: var(--clr-primary);
-            background-color: var(--clr-bg-btn-white);
-            border: none;
-            padding: 12px 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: none;
-
-            img {
-                color: var(--clr-primary);
-            }
-        }
-        .btn-call-1:hover {
-
-            color: var(--clr-gray500);
-            text-decoration: none;
-        }
-
-        .btn-call-2 {
-
-            color: var(--clr-succes);
-            background-color: var(--clr-bg-btn-white);
-            border: none;
-            padding: 12px 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: none;
-        }
-        .btn-call-2:hover {
-
-            color: var(--clr-gray500);
-            text-decoration: none;
-        }
     }
 
     .newsletter {
