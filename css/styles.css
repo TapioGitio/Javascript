@@ -8,6 +8,14 @@
     display: none;
 }
 
+.container {
+    width: 100%;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header .container {
     display: grid;
     align-items: center;
@@ -308,7 +316,7 @@ header .container {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .news-container {
@@ -330,6 +338,10 @@ header .container {
         animation: shakeIt .5s;
         animation-iteration-count: 2;
     }
+
+    .form-container {
+        margin-inline: auto;
+    }
 }
 
 .news-title {
@@ -346,8 +358,6 @@ header .container {
 
 .email-form {
 
-    min-width: 349px;
-    margin-top: 1rem;
     display: flex;
 
     .form-input {
@@ -370,7 +380,6 @@ header .container {
     input::placeholder {
        
         font-size: 1rem;
-        font-family: "Manrope", system-ui;
         color: var(--clr-gray500);
     }
 
@@ -525,6 +534,7 @@ footer {
             align-items: center;
             justify-content: start;
             flex-wrap: nowrap;
+            gap: .5rem;
         }
     }
 
