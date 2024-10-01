@@ -880,6 +880,7 @@ footer {
         display: grid;
         grid-template-columns: 2fr 3fr;
         column-gap: 4rem;
+        padding-bottom: 6rem;
 
         .fq-title {
             display: flex;
