@@ -330,10 +330,6 @@ header .container {
         animation: shakeIt .5s;
         animation-iteration-count: 2;
     }
-
-    .form-container {
-        margin-inline: auto;
-    }
 }
 
 .news-title {
