@@ -35,8 +35,8 @@ function disableDarkMode() {
 }
 // Hämtat från Joakims klipp.
 
-var accord = document.getElementsByClassName('btn-drop-up');
-var i;
+const accord = document.getElementsByClassName('btn-drop-up');
+let i;
 
 for (i = 0; i < accord.length; i++) {
     accord[i].addEventListener('click', function(event) {
@@ -47,7 +47,7 @@ for (i = 0; i < accord.length; i++) {
         this.classList.toggle('active');
 
     
-        var panel = this.parentElement.nextElementSibling;
+        const panel = this.parentElement.nextElementSibling;
         if (panel.style.display === 'block') {
             panel.style.display = 'none';
         } else {
