@@ -621,6 +621,7 @@ footer {
         display: none;
     }
 
+    /* CONTACT PAGE START */
 
     .contact-page {
         padding-block: 4rem;
@@ -629,12 +630,28 @@ footer {
        .container {
         position: relative;
        }
+
+       .breadcrumb {
+        font-size: .9rem;
+        list-style: none; 
+        display: flex;
+        gap: 1rem;
+       }
+
+       .breadcrumb li:last-child a{
+        color: var(--clr-primary);
+       }
+
     
        .contact-side {
         width: 30%;
         text-align: left;
         h2 {
             font-size: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
         }
         .contact-card {
             margin-top: 3rem;
@@ -643,10 +660,11 @@ footer {
             gap: 1rem;
         }
         .icon-container {
+            font-size: 1.4em;
             color: var(--clr-primary);
             background-color: var(--clr-white);
             border-radius: 50%;
-            height: 40px;
+            height: 60px;
             aspect-ratio: 1;
     
             display: grid;
@@ -654,9 +672,45 @@ footer {
         }
     
        }
+
+       .form-side {
+        width: 50%;
+        position: absolute;
+        bottom: -8rem;
+        right: 0;
+        background-color: var(--clr-bg-white);
+        border-radius: .8rem;
+        box-shadow: 0 0 10px #33333315;
+
+        h3 {
+            font-size: 2rem;
+        }
+        .form {
+            display: grid;
+            place-items: center;
+            width: 100%;
+            padding: 2rem;
+        }
+
+        .form-label {
+            display: block;
+            font-weight: 600;
+            
+        }
+
+        .input-group {
+            width: 100%;
+        }
+
+        .btn-appoint {
+            margin-top: 4rem;
+            border: none;
+            width: 100%;
+        }
+       }
        
     }
-
+    /* CONTACT PAGE ENDS */
     .main {
         height:800px;
         overflow: hidden;
