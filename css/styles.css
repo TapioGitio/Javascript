@@ -1,4 +1,20 @@
 
+.btn {
+    color: var(--clr-primary);
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--clr-gray500);
+    }
+}
 .navbar {
     display: none;
 
@@ -590,6 +606,7 @@ footer {
     header .container {
         grid-template-columns: auto 1fr auto auto;
         gap: 3rem;
+        position:absolute;
 
     }
 
@@ -606,6 +623,13 @@ footer {
     .btn-mobile {
         display: none;
     }
+
+    .contact-page {
+        padding-top: 10rem;
+        background-color: var(--clr-gray100);
+
+    }
+
     .main {
         height:800px;
         overflow: hidden;
