@@ -596,6 +596,9 @@ footer {
     .navbar {
         display: block;
     }
+    .nav-link {
+        margin-right: 1rem;
+    }
     #auth-signin {
         display: block;
     }
