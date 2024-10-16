@@ -606,7 +606,6 @@ footer {
     header .container {
         grid-template-columns: auto 1fr auto auto;
         gap: 3rem;
-        position:absolute;
 
     }
 
