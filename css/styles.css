@@ -821,7 +821,20 @@ footer {
 
         .container {
             margin-top: 6rem;
+            position: relative;
         }
+
+        .map {
+            padding-bottom: 60%;
+        }
+        .map iframe {
+            height: 60%;
+            width: 50%;
+            left: 0;
+            top: 0;
+            position: absolute;
+        }
+
     }
     /* MAP PAGE ENDS */
     .main {
