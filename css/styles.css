@@ -806,6 +806,7 @@ footer {
             margin-top: 5rem;
             border: none;
             width: 100%;
+            cursor: pointer;
         }
        }
        
